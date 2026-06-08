@@ -50,12 +50,6 @@ Frontend UI: http://localhost:7860
 Backend API: http://localhost:8000
 ```
 
-Backend health check:
-
-```bash
-curl.exe http://localhost:8000/health
-```
-
 Example interface result:
 
 This example shows the interface handling multiple OECD reports at once, answering a cross-document analytical question, and returning both a grounded response and a verification report that makes evidence support explicit.
