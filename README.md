@@ -14,9 +14,7 @@ The project implements an agentic retrieval-augmented generation architecture ex
 - **Model backend**: OpenAI chat models generate answers, validate evidence support, and classify document relevance.
 - **Service split**: the backend exposes the pipeline as an API; the frontend acts as a lightweight client over HTTP.
 
-### Workflow diagram
-
-The diagram below is generated directly from the LangGraph workflow, so it reflects the actual control flow between relevance checking, answer generation, verification, and retry routing.
+### Agentic RAG Workflow Diagram
 
 In this setting, agentic RAG means that retrieval is not followed by a single generation step; instead, specialized agents use the retrieved evidence to decide whether the question is answerable, draft a response, verify that response against the source material, and trigger another pass when support is insufficient.
 
