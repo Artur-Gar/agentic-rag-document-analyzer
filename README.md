@@ -20,6 +20,12 @@ In this setting, agentic RAG means that retrieval is not followed by a single ge
 
 ![Agent workflow diagram](assets/workflow_diagram.png)
 
+## Example interface result:
+
+This example shows the interface handling multiple OECD reports at once, answering a cross-document analytical question, and returning both a grounded response and a verification report that makes evidence support explicit.
+
+![Agentic RAG interface example](assets/ui-example.png)
+
 ## Key commands
 
 Install dependencies locally:
@@ -40,12 +46,6 @@ Application endpoints:
 Frontend UI: http://localhost:7860
 Backend API: http://localhost:8000
 ```
-
-## Example interface result:
-
-This example shows the interface handling multiple OECD reports at once, answering a cross-document analytical question, and returning both a grounded response and a verification report that makes evidence support explicit.
-
-![Agentic RAG interface example](assets/ui-example.png)
 
 ## Repository structure
 
